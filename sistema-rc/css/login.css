@@ -1,0 +1,31 @@
+body {
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.area {
+	width: 100%;
+	max-width: 350px;
+	background-color: #7CDA24;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: 5px 5px 10px #888;
+	padding: 20px;
+}
+
+.logo {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+}
+
+.area h1 {
+	font-size: 1.5rem;
+}
+
+.area form input {
+	margin-top: 15px;
+}
