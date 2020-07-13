@@ -16,5 +16,9 @@ if (isset($_POST['acao'])) {
 			exit;
 		}
 
+	} else {
+		$_SESSION['flash-danger'] = 'Todos os campos devem ser preenchidos!';
+		header('Location: login.php');
+		exit;
 	}
 }

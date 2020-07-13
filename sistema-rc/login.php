@@ -39,8 +39,8 @@
 					<!-- alert -->
 					<?php unset($_SESSION['flash-success']); ?>
 				<?php endif; ?>
-				<input type="email" name="email" placeholder="Digite seu e-mail" class="form-control" />
-				<input type="password" name="senha" placeholder="Digite sua senha" class="form-control" />
+				<input type="email" name="email" placeholder="Digite seu e-mail" class="form-control" required />
+				<input type="password" name="senha" placeholder="Digite sua senha" class="form-control" required />
 				<div class="row">
 					<div class="col-6">
 						<label>
